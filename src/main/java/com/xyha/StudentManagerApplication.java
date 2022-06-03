@@ -1,4 +1,4 @@
-package com.xyha.student_manager;
+package com.xyha;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

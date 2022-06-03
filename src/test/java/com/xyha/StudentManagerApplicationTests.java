@@ -1,4 +1,4 @@
-package com.xyha.student_manager;
+package com.xyha;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
