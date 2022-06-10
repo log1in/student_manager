@@ -8,33 +8,21 @@ import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 
-/**
- * <p>
- * 
- * </p>
- *
- * @author xyha
- * @since 2022-06-03
- */
 @Data
 @EqualsAndHashCode()
-public class StudentCourse implements Serializable {
+public class Proportion implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @TableField("student_id")
-    private Integer studentId;
+    @TableField("name")
+    private String name;
+
+    @TableField("rate")
+    private Integer rate;
 
     @TableField("teacher_course_id")
     private Integer teacherCourseId;
-
-    /**
-     * 0初修1补考2缓考3重修
-     */
-    @TableField("status")
-    private Integer status;
-
 }

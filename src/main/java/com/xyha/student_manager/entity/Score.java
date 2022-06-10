@@ -25,17 +25,14 @@ public class Score implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    @TableField("daily_score")
-    private Integer dailyScore;
+    @TableField("student_course_id")
+    private Integer studentCourseId;
 
-    @TableField("mid_term_score")
-    private Integer midTermScore;
+    @TableField("proportion_id")
+    private Integer proportionId;
 
-    @TableField("final_term_score")
-    private Integer finalTermScore;
-
-    @TableField("total_score")
-    private Integer totalScore;
+    @TableField("mark")
+    private Integer mark;
 
 
 }
